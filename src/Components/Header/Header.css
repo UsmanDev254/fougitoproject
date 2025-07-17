@@ -1,0 +1,24 @@
+.custom-offcanvas-width .offcanvas-header,
+.custom-offcanvas-width .offcanvas-body {
+  padding-left: 29px;
+}
+
+nav.navbar_main {
+  margin-bottom: -7%;
+  z-index: 99999;
+  background: #00000000 !important;
+}
+
+.offcanvas {
+  z-index: 999999999;
+}
+
+@media screen and (max-width: 1024px) {
+  img.site_logo {
+    width: 60%;
+  }
+  nav.navbar_main {
+    margin-bottom: 0%;
+    background: #1e1818 !important;
+  }
+}

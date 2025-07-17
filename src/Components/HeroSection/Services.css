@@ -1,0 +1,106 @@
+.Hero-Main {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  animation: fadeInLeft 0.6s ease-in-out
+}
+
+.hero-background {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+
+.services-parent {
+  position: relative;
+  /* z-index: 2; */
+}
+
+
+.services-parent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.services-parent:hover::before {
+  /* opacity: 0; */
+  z-index: -1;
+}
+
+
+.services-child{
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-right: 2px solid #fff6 !important;
+    filter: grayscale(100%);
+    padding: 0 20px 40px 20px;
+}
+
+.services-child:hover {
+    filter: grayscale(0%);
+}
+
+.service-child-content {
+  background: #E3D3C7;
+  border-radius: 16px;
+  padding: 10px;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  z-index: 2;
+  opacity: 0;
+  height: 11.5rem;
+}
+
+.services-child:hover .service-child-content {
+    opacity: 1;
+}
+
+a.service_btn_1 {
+    background: #F05152;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    /* opacity: 0.8; */
+}
+
+.services-child:hover a.service_btn_1 {
+    filter: grayscale(0%);
+    /* opacity: 0.8; */
+}
+
+a.service_btn_2 {
+    background: #F05152;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.verticle_btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: rotate(90deg);
+    transform-origin: top right;
+    z-index: 1;
+}
+
+
+

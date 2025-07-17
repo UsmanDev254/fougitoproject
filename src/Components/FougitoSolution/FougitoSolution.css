@@ -1,0 +1,44 @@
+.custom_container.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.fougito_content h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.fougito_content p {
+  font-size: 22px;
+}
+
+.fougito_content a {
+  font-size: 20px;
+}
+
+.fougito_about_img img {
+  box-sizing: border-box;
+  width: 80% !important;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .fougito_content h2 {
+  font-size: 32px;
+}
+
+.fougito_content p {
+  font-size: 18px;
+}
+
+.fougito_content a {
+  font-size: 16px;
+}
+  .fougito_about_img img {
+    box-sizing: border-box;
+    width: 100% !important;
+    border-radius: 20px;
+  }
+}
