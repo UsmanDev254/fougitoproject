@@ -104,3 +104,10 @@ a.service_btn_2 {
 
 
 
+
+
+@media screen and (max-width: 1024px) {
+  .Hero-Main {
+  height: 100% !important;
+}
+}

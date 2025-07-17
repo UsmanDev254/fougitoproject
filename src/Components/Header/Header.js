@@ -19,14 +19,18 @@ function Header() {
         // bg="dark"
         // data-bs-theme="dark"
       >
-        <Container>
-          <Navbar.Brand href="#">
-            <img className="site_logo" src={Logo} alt="logo"></img>
-          </Navbar.Brand>
+        <Container className="d-flex">
+          <div className="logo_main">
+            <Navbar.Brand href="#">
+              <img className="site_logo" src={Logo} alt="logo"></img>
+            </Navbar.Brand>
+          </div>
 
           {/* Right Side Buttons (Visible in navbar) */}
-          <div className="d-flex align-items-center ms-auto gap-0 gap-lg-3">
-            <Button variant="outline-light bg-white text-black">Book a Demo</Button>
+          <div className="nav_toggle_main d-flex align-items-center justify-content-end ms-auto gap-0 gap-lg-3">
+            <Button variant="outline-light bg-white text-black">
+              Book a Demo
+            </Button>
             <Navbar.Toggle
               className="text-white border border-0 shadow-none"
               aria-controls={`offcanvasNavbar-expand-${expand}`}

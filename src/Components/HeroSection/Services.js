@@ -56,7 +56,7 @@ function Services() {
   }
 
   return (
-    <div style={{ height: "100vh" }} className="Hero-Main">
+    <div className="Hero-Main">
       <div
         className="hero-background"
         style={{

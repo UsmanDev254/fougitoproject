@@ -21,4 +21,12 @@ nav.navbar_main {
     margin-bottom: 0%;
     background: #1e1818 !important;
   }
+
+  .logo_main {
+    width: 40%;
+  }
+
+  .nav_toggle_main {
+    width: 60%;
+  }
 }
