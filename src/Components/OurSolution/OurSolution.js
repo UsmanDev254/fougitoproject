@@ -14,7 +14,7 @@ import FougitoProperty from "../../Assests/Images/properties.webp";
 function OurSoluton() {
   return (
     <Container className="custom_container">
-      <div className="fougito_content our_solution_heading text-center">
+      <div className="fougito_content our_solution_heading text-start text-lg-center">
         <h2>Our Solutions</h2>
       </div>
       <div className="our_solution_parent p-0 p-lg-5 d-flex flex-column flex-lg-row gap-2">
