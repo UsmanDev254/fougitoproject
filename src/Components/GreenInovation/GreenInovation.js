@@ -1,6 +1,5 @@
 import { Container, NavLink } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons/faArrowCircleRight";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
 import "../GreenInovation/GreenInovation.css"
 

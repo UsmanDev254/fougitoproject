@@ -74,7 +74,7 @@ function OurSoluton() {
             className="our_solution_inner_child our_solution_inner_child_3 col-12"
             to={"#"}
             style={{
-              backgroundImage: `url(${FougitoPos})`,
+              backgroundImage: `url(${FougitoMarkeet})`,
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
@@ -90,7 +90,7 @@ function OurSoluton() {
             <NavLink
               className="our_solution_mini_child_1"
               style={{
-                backgroundImage: `url(${FougitoAutomobile})`,
+                backgroundImage: `url(${FougitoSquad})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
@@ -105,7 +105,7 @@ function OurSoluton() {
             <NavLink
             className="our_solution_mini_child_2"
               style={{
-                backgroundImage: `url(${FougitoOnline})`,
+                backgroundImage: `url(${FougitoProperty})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
