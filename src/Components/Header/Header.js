@@ -3,19 +3,42 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import React, { useState, useEffect } from 'react';
+
 import Logo from "../../Assests/Images/logo_bw.svg";
 import "../Header/Header.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBolt } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 100) { // Adjust 100 based on navbar height
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const expand = false;
 
   return (
     <header className="App-header">
       <Navbar
         expand={expand}
-        className="navbar_main bg-body-tertiary navbar-dark shadow-none"
+        className={`${isSticky ? 'sticky' : ''} navbar_main bg-body-tertiary navbar-dark shadow-none`}
+        style={{background: isSticky ? '#000': ''}}
         // bg="dark"
         // data-bs-theme="dark"
       >

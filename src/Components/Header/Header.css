@@ -13,6 +13,17 @@ nav.navbar_main {
   z-index: 999999999;
 }
 
+nav.navbar_main.sticky {
+    background: #000000d1 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .5s ease-in;
+}
+
+
+
 @media screen and (max-width: 1024px) {
   img.site_logo {
     width: 60%;
