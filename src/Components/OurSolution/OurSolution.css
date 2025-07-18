@@ -14,16 +14,21 @@
 }
 
 .our_solution_inner_child_content h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.our_solution_inner_child, .our_solution_mini_child_1, .our_solution_mini_child_2{
-    padding: 14px 14px 30px 14px;
+.our_solution_inner_child{
+    /* padding: 14px 14px 30px 14px; */
+    border-radius: 20px;
+}
+
+a.our_solution_mini_child_1, a.our_solution_mini_child_2 {
+    padding-bottom: 50px;
     border-radius: 20px;
 }
 
 a.our_solution_inner_child_3 {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 
