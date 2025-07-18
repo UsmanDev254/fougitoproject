@@ -66,6 +66,10 @@
   height: 11.5rem;
 }
 
+.service-child-content h2 {
+    font-size: 24px;
+}
+
 .services-child:hover .service-child-content {
     opacity: 1;
 }
@@ -109,5 +113,10 @@ a.service_btn_2 {
 @media screen and (max-width: 1024px) {
   .Hero-Main {
   height: 100% !important;
+}
+
+.verticle_btn {
+    top: 80%;
+    right: 0;
 }
 }

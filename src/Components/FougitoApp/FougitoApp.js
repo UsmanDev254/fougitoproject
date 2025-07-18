@@ -9,7 +9,7 @@ import AppImage from "../../Assests/Images/Appshot.png"
 function FougitoApp(){
 
     return(
-        <div style={{background:`url(${AppBackgroundImage})`, backgroundSize: "cover",backgroundRepeat: "no-repeat", backgroundPosition:"center"}} className="container-fluid p-lg-0 mt-5">
+        <div style={{background:`url(${AppBackgroundImage})`, backgroundSize: "cover",backgroundRepeat: "no-repeat", backgroundPosition:"center"}} className="container-fluid p-lg-0">
             <div className="custom_container app_parent pt-5">
                 <div className="app_first_child d-flex flex-column justify-content-center align-items-center text-center pt-xl-0">
                     <div className="fougito_content app_content">
