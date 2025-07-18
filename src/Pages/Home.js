@@ -4,6 +4,7 @@ import FougitoSoluton from "../Components/FougitoSolution/FougitoSolution";
 import OurSolution from "../Components/OurSolution/OurSolution";
 import GreenInovation from "../Components/GreenInovation/GreenInovation";
 import Reliable from "../Components/ReliableComponent/Reliable";
+import FougitoApp from "../Components/FougitoApp/FougitoApp";
 
 function HomePage(){
 
@@ -14,6 +15,7 @@ function HomePage(){
             <OurSolution />
             <GreenInovation />
             <Reliable />
+            <FougitoApp />
         </div>
     )
 }

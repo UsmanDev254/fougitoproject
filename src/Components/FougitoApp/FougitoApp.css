@@ -1,0 +1,24 @@
+.app_first_child {
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.app_img img {
+    width: 72%;
+    padding-top: 15%;
+    border-radius: 80px 80px 0 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+.app_first_child {
+    width: 100%;
+    max-width: 100%;
+}
+.app_img img {
+    width: 72%;
+    padding-top: 15%;
+    border-radius: 40px 40px 0 0;
+}
+}
