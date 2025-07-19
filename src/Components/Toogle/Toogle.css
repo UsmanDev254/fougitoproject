@@ -1,0 +1,22 @@
+.faqs_item_main {
+  border-left: 5px solid #a3a3a3 !important;
+  background-color: #f4f4f5;
+}
+
+.faqs_item_main.active {
+  border-left: 5px solid red !important;
+}
+
+.why_choose_fougito{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom_width_toogle {
+    width: 100% !important;
+  }
+  .why_choose_fougito{
+    font-size: 32px;
+}
+}

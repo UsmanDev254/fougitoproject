@@ -1,0 +1,47 @@
+.app_screen_img img {
+    width: 70%;
+}
+
+img.playstore, img.appstore {
+    width: 85%;
+}
+
+h2.fougito_app_main_heading {
+    font-size: 48px;
+}
+
+.fougito_app_child p {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .app_screen_img img {
+    width: 70%;
+}
+img.playstore, img.appstore {
+    width: 90%;
+}
+
+h2.fougito_app_main_heading {
+    font-size: 32px;
+}
+
+.fougito_app_child p {
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .app_screen_img img {
+    width: 80%;
+}
+img.playstore, img.appstore {
+    width: 90%;
+}
+
+h2.fougito_app_main_heading {
+    font-size: 26px;
+}
+
+}

@@ -5,6 +5,9 @@ import OurSolution from "../Components/OurSolution/OurSolution";
 import GreenInovation from "../Components/GreenInovation/GreenInovation";
 import Reliable from "../Components/ReliableComponent/Reliable";
 import FougitoApp from "../Components/FougitoApp/FougitoApp";
+import Toogle from "../Components/Toogle/Toogle";
+import AppBanner from "../Components/AppBanner/AppBanner";
+
 
 function HomePage(){
 
@@ -16,6 +19,8 @@ function HomePage(){
             <GreenInovation />
             <Reliable />
             <FougitoApp />
+            <Toogle />
+            <AppBanner />
         </div>
     )
 }
