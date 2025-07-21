@@ -4,9 +4,9 @@ import { Container, NavLink } from "react-bootstrap";
 import "../GreenInovation/GreenInovation.css"
 import "../AppBanner/AppBanner.css"
 
-import PlayStore from "../../Assests/Images/play_store.webp"
-import AppStore from "../../Assests/Images/app_store.webp"
-import AppScreens from "../../Assests/Images/app.webp"
+import PlayStore from "../../../Assests/Images/play_store.webp"
+import AppStore from "../../../Assests/Images/app_store.webp"
+import AppScreens from "../../../Assests/Images/app.webp"
 
 
 

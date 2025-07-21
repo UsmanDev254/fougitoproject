@@ -4,15 +4,15 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 // Hero Section Images
-import Image1 from "../../Assests/Images/Banner-1.jpg";
-import Image2 from "../../Assests/Images/Banner-2.jpg";
-import Image3 from "../../Assests/Images/Banner-3.jpg";
-import Image4 from "../../Assests/Images/Banner-4.jpg";
-import Image5 from "../../Assests/Images/Foods.jpeg";
-import Image6 from "../../Assests/Images/Grocery.jpeg";
-import Image7 from "../../Assests/Images/header.020ad54afa2b69eb.webp";
-import Image8 from "../../Assests/Images/RealEstate.jpeg";
-import Image9 from "../../Assests/Images/Automobile.jpeg";
+import Image1 from "../../../Assests/Images/Banner-1.jpg";
+import Image2 from "../../../Assests/Images/Banner-2.jpg";
+import Image3 from "../../../Assests/Images/Banner-3.jpg";
+import Image4 from "../../../Assests/Images/Banner-4.jpg";
+import Image5 from "../../../Assests/Images/Foods.jpeg";
+import Image6 from "../../../Assests/Images/Grocery.jpeg";
+import Image7 from "../../../Assests/Images/header.020ad54afa2b69eb.webp";
+import Image8 from "../../../Assests/Images/RealEstate.jpeg";
+import Image9 from "../../../Assests/Images/Automobile.jpeg";
 
 function Services() {
   const [bgImage, setBgImage] = useState(Image7);

@@ -4,12 +4,12 @@ import "../OurSolution/OurSolution.css";
 
 // import images for this section
 
-import FougitoPos from "../../Assests/Images/pos.webp";
-import FougitoAutomobile from "../../Assests/Images/auto.webp";
-import FougitoOnline from "../../Assests/Images/online.webp";
-import FougitoMarkeet from "../../Assests/Images/market.webp";
-import FougitoSquad from "../../Assests/Images/squad.webp";
-import FougitoProperty from "../../Assests/Images/properties.webp";
+import FougitoPos from "../../../Assests/Images/pos.webp";
+import FougitoAutomobile from "../../../Assests/Images/auto.webp";
+import FougitoOnline from "../../../Assests/Images/online.webp";
+import FougitoMarkeet from "../../../Assests/Images/market.webp";
+import FougitoSquad from "../../../Assests/Images/squad.webp";
+import FougitoProperty from "../../../Assests/Images/properties.webp";
 
 function OurSoluton() {
   return (

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
 import "../GreenInovation/GreenInovation.css"
 
-import GreenInovationImg from "../../Assests/Images/plant-conserve-banner.jpg"
+import GreenInovationImg from "../../../Assests/Images/plant-conserve-banner.jpg"
 
 
 

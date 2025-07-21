@@ -3,7 +3,7 @@ import "../FougitoSolution/FougitoSolution.css"
 import "../ReliableComponent/Reliable.css"
 
 
-import BusinessImage from "../../Assests/Images/business.webp"
+import BusinessImage from "../../../Assests/Images/business.webp"
 
 function Reliable(){
 

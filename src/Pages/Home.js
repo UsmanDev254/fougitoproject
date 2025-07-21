@@ -1,12 +1,12 @@
 import React from "react";
-import Services from "../Components/HeroSection/Services";
-import FougitoSoluton from "../Components/FougitoSolution/FougitoSolution";
-import OurSolution from "../Components/OurSolution/OurSolution";
-import GreenInovation from "../Components/GreenInovation/GreenInovation";
-import Reliable from "../Components/ReliableComponent/Reliable";
-import FougitoApp from "../Components/FougitoApp/FougitoApp";
-import Toogle from "../Components/Toogle/Toogle";
-import AppBanner from "../Components/AppBanner/AppBanner";
+import Services from "../Components/HomePageComponent/HeroSection/Services";
+import FougitoSoluton from "../Components/HomePageComponent/FougitoSolution/FougitoSolution";
+import OurSolution from "../Components/HomePageComponent/OurSolution/OurSolution";
+import GreenInovation from "../Components/HomePageComponent/GreenInovation/GreenInovation";
+import Reliable from "../Components/HomePageComponent/ReliableComponent/Reliable";
+import FougitoApp from "../Components/HomePageComponent/FougitoApp/FougitoApp";
+import Toogle from "../Components/HomePageComponent/Toogle/Toogle";
+import AppBanner from "../Components/HomePageComponent/AppBanner/AppBanner";
 import BlogCard from "../Components/HomePageComponent/Blog/BlogOverview";
 
 

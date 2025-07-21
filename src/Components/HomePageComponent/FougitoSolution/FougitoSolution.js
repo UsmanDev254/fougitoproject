@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../FougitoSolution/FougitoSolution.css"
 
 
-import FougitoImage from "../../Assests/Images/convinience.webp"
+import FougitoImage from "../../../Assests/Images/convinience.webp"
 
 function FougitoSoluton(){
 

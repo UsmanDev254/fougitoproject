@@ -3,8 +3,8 @@ import "../FougitoSolution/FougitoSolution.css"
 import "../FougitoApp/FougitoApp.css"
 
 
-import AppBackgroundImage from "../../Assests/Images/pos_bg.661adca781cdd1b8.webp"
-import AppImage from "../../Assests/Images/Appshot.png"
+import AppBackgroundImage from "../../../Assests/Images/pos_bg.661adca781cdd1b8.webp"
+import AppImage from "../../../Assests/Images/Appshot.png"
 
 function FougitoApp(){
 
