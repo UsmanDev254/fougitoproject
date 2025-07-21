@@ -15,6 +15,7 @@ function FougitoSoluton(){
                         <h2>
                             Fougito solutions<br></br> all you need, all in one
                         </h2>
+                        <p>Hello World</p>
                         <p>Experience the ease of one app for all your restaurant management, food deliveries, grocery, and automobiles requirements with the Fougito App.</p>
                         <p>Elevate your routine with Fougito's integrated approach to daily living.</p>
                         <div className="mt-4"><NavLink className="service_btn_2" to="#">View More</NavLink></div>
