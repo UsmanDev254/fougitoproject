@@ -9,7 +9,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-import ColorLogo from "../../Assests/Images/logo.svg";
+import ColorLogo from "../../../Assests/Images/logo.svg";
 
 function BotomFooter() {
   return (

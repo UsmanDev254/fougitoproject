@@ -7,7 +7,7 @@ import Reliable from "../Components/ReliableComponent/Reliable";
 import FougitoApp from "../Components/FougitoApp/FougitoApp";
 import Toogle from "../Components/Toogle/Toogle";
 import AppBanner from "../Components/AppBanner/AppBanner";
-import BotomFooter from "../Components/Footer/Footer";
+import BlogCard from "../Components/HomePageComponent/Blog/BlogOverview";
 
 
 function HomePage(){
@@ -22,7 +22,7 @@ function HomePage(){
             <FougitoApp />
             <Toogle />
             <AppBanner />
-            <BotomFooter />
+            <BlogCard />
         </div>
     )
 }

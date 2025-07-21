@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import React, { useState, useEffect } from 'react';
 
-import Logo from "../../Assests/Images/logo_bw.svg";
+import Logo from "../../../Assests/Images/logo_bw.svg";
 import "../Header/Header.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBolt } from "@fortawesome/free-solid-svg-icons";
