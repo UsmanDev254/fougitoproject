@@ -2,4 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.blog_card_child_main:before {
+    content: '';
+    background: #00000080;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.blog_card_content {
+    z-index: 3;
 }

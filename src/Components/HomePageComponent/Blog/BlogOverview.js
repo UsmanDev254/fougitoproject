@@ -13,7 +13,7 @@ function BlogCard() {
         </div>
         <div className="blog_card_parent d-flex text-center">
           {blogPosts.map((post) => (
-            <div className="blog_card_child_main mx-2 col-4 text-white" style={{ backgroundImage: `url(${post.featuredImage})`}}>
+            <div className="blog_card_child_main rounded mx-2 col-4 text-white" style={{ backgroundImage: `url(${post.featuredImage})`}}>
               <div key={post.slug} className="blog_card_content p-3">
                 <Link to={`/blog/${post.slug}`} className="text-decoration-none text-white">
                 <h4>{post.title}</h4>

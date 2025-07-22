@@ -11,15 +11,15 @@ function BlogDetail() {
   const blog = blogPosts.find((item) => item.slug === slug);
 
   // ✅ Handle not found case
-  //   if (!blog) {
-  //     return (
-  //       <Container>
-  //         <div className="mt-5 pt-5 text-center">
-  //           <h2>Blog not found</h2>
-  //         </div>
-  //       </Container>
-  //     );
-  //   }
+    if (!blog) {
+      return (
+        <Container>
+          <div className="mt-5 pt-5 text-center">
+            <h2>Blog not found</h2>
+          </div>
+        </Container>
+      );
+    }
 
   return (
     <>

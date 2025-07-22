@@ -100,7 +100,7 @@ function BotomFooter() {
                 href="mailto:usmanali33474@gmail.com"
                 className="me-3 text-decoration-none"
               >
-                usmanali33474.com
+                usmanali33474@gmail.com
               </a>
             </p>
             <p>
