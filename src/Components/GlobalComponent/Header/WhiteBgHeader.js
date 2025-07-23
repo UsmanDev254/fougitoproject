@@ -49,7 +49,7 @@ function HeaderWhite() {
 
           {/* Right Side Buttons (Visible in navbar) */}
           <div className="nav_toggle_main d-flex align-items-center justify-content-end ms-auto gap-0 gap-lg-3">
-            <Button variant="outline-light bg-white text-black">
+            <Button variant="outline-light bg-dark text-white">
               Book a Demo
             </Button>
             <Navbar.Toggle
