@@ -15,15 +15,29 @@ img.image_box {
   width: 12%;
 }
 
-img.aurthor_box{
+.image_box_child {
+  width: 48.5%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+  padding: 1.5rem;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+.image_box_child:hover {
+  background: #060e32;
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+img.aurthor_box {
   width: 70%;
 }
 
 .aurthor_box_parent {
-    width: 100%;
-    max-width: 40%;
+  width: 100%;
+  max-width: 40%;
 }
-
 
 @media screen and (max-width: 1024px) {
   .about_hero_main {
@@ -45,8 +59,12 @@ img.aurthor_box{
   img.image_box {
     width: 15%;
   }
+
+  .image_box_child {
+    width: 100%;
+  }
   .aurthor_box_parent {
     width: 100%;
     max-width: 100% !important;
-}
+  }
 }

@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import "../HomePageComponent/FougitoSolution/FougitoSolution.css";
 import "../HomePageComponent/FougitoApp/FougitoApp.css";
 
@@ -27,12 +26,12 @@ function Founder() {
           <div className="founder_box_main d-flex flex-column flex-lg-row">
             <div className="founder_box_child col-12 col-lg-6 d-flex flex-column gap-2 justify-content-center align-items-center">
               <img src={Founder2} alt="image_box" className="aurthor_box"></img>
-              <h3>Nouman Amin</h3>
+              <h4>Nouman Amin</h4>
               <p>Chief Technology Officer</p>
             </div>
             <div className="founder_box_child col-12 col-lg-6 d-flex flex-column gap-2 justify-content-center align-items-center">
               <img src={Founder3} alt="image_box" className="aurthor_box"></img>
-              <h3>Moza Al Gergawi</h3>
+              <h4>Moza Al Gergawi</h4>
               <p>Chairwomen</p>
             </div>
           </div>

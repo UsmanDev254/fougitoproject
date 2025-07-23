@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import blogPosts from "../Components/HomePageComponent/Blog/BlogData";
-import "../Assests/Styles/Blogs.css";
+import "../Assests/Styles/Style.css";
 
 function BlogDetail() {
   const { slug } = useParams();
