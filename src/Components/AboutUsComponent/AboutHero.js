@@ -4,11 +4,7 @@ import "../AboutUsComponent/About.css"
 
 import AboutBanner from "../../Assests/Images/AboutImages/about-us-banner.webp";
 import AboutHero from "../../Assests/Images/AboutImages/about-hero.webp";
-import Mission from "../../Assests/Images/AboutImages/mission.webp";
-import Vision from "../../Assests/Images/AboutImages/vision.webp";
-import Featured from "../../Assests/Images/AboutImages/feature.webp";
-import Founder2 from "../../Assests/Images/AboutImages/founder2.webp";
-import Founder3 from "../../Assests/Images/AboutImages/founder3.webp";
+
 
 function AboutUs() {
   return (
