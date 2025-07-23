@@ -3,33 +3,34 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import Logo from "../../../Assests/Images/logo_bw.svg";
+import Logo from "../../../Assests/Images/logo.svg";
+import Logo2 from "../../../Assests/Images/logo_bw.svg";
 import "../Header/Header.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBolt } from "@fortawesome/free-solid-svg-icons";
 
-function Header() {
+function HeaderWhite() {
 
   const [isSticky, setIsSticky] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const offset = window.scrollY;
-      if (offset > 100) { // Adjust 100 based on navbar height
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const offset = window.scrollY;
+  //     if (offset > 100) { // Adjust 100 based on navbar height
+  //       setIsSticky(true);
+  //     } else {
+  //       setIsSticky(false);
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   const expand = false;
 
@@ -37,8 +38,8 @@ function Header() {
     <header className="App-header">
       <Navbar
         expand={expand}
-        className={`${isSticky ? 'sticky' : ''} navbar_main bg-body-tertiary navbar-dark shadow-none`}
-        style={{background: isSticky ? '#000': ''}}
+        className={`${isSticky ? 'sticky' : ''} navbar_white fixed-top bg-body-tertiary navbar-light shadow-none`}
+        style={{background: isSticky ? '#fff': ''}}
         // bg="dark"
         // data-bs-theme="dark"
       >
@@ -73,7 +74,7 @@ function Header() {
                 id={`offcanvasNavbarLabel-expand-${expand}`}
                 className="fs-2"
               >
-                <img className="site_logo" src={Logo} alt="logo"></img>
+                <img className="site_logo" src={Logo2} alt="logo"></img>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -92,4 +93,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderWhite;

@@ -1,0 +1,30 @@
+.about_hero_main {
+  padding-top: 12%;
+}
+
+.about_hero_content_child h1 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.about_hero_content_child p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_hero_main {
+    padding-top: 15%;
+  }
+  .about_hero_content_child h1 {
+    font-size: 30px !important;
+    line-height: 34px !important;
+    font-weight: 700;
+  }
+
+  .about_hero_content_child p {
+    font-size: 14px;
+  }
+  .banner_second_col img {
+    width: 60% !important;
+  }
+}

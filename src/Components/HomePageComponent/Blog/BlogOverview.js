@@ -9,7 +9,7 @@ function BlogCard() {
     <Container>
       <div className="text-center">
         <div className="blog_main_heading">
-          <h2>Blog Posts</h2>
+          <h2 className="why_choose_fougito pb-4">Blog Posts</h2>
         </div>
         <div className="blog_card_parent d-flex text-center">
           {blogPosts.map((post) => (

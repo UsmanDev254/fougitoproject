@@ -8,12 +8,14 @@ import FougitoApp from "../Components/HomePageComponent/FougitoApp/FougitoApp";
 import Toogle from "../Components/HomePageComponent/Toogle/Toogle";
 import AppBanner from "../Components/HomePageComponent/AppBanner/AppBanner";
 import BlogCard from "../Components/HomePageComponent/Blog/BlogOverview";
+import Header from "../Components/GlobalComponent/Header/Header";
 
 
 function HomePage(){
 
     return(
         <div className="home-page">
+            <Header />
             <Services />
             <FougitoSoluton />
             <OurSolution />
