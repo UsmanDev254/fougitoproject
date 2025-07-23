@@ -38,14 +38,11 @@ function HeaderWhite() {
     <header className="App-header">
       <Navbar
         expand={expand}
-        className={`${isSticky ? 'sticky' : ''} navbar_white fixed-top bg-body-tertiary navbar-light shadow-none`}
-        style={{background: isSticky ? '#fff': ''}}
-        // bg="dark"
-        // data-bs-theme="dark"
+        className={`navbar_white fixed-top bg-body-tertiary navbar-light shadow-none`}
       >
         <Container className="d-flex">
           <div className="logo_main">
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img className="site_logo" src={Logo} alt="logo"></img>
             </Navbar.Brand>
           </div>

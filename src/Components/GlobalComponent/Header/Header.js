@@ -44,7 +44,7 @@ function Header() {
       >
         <Container className="d-flex">
           <div className="logo_main">
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img className="site_logo" src={Logo} alt="logo"></img>
             </Navbar.Brand>
           </div>
