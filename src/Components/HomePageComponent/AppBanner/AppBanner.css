@@ -1,5 +1,6 @@
 .app_screen_img img {
     width: 70%;
+    margin-top: -15%;
 }
 
 img.playstore, img.appstore {
@@ -17,7 +18,7 @@ h2.fougito_app_main_heading {
 
 @media screen and (max-width: 1024px) {
     .app_screen_img img {
-    width: 70%;
+    margin-top: 0% !important;
 }
 img.playstore, img.appstore {
     width: 90%;

@@ -80,7 +80,7 @@ function HeaderWhite() {
                 <Nav.Link href="/about">About Us</Nav.Link>
                 <Nav.Link href="/contact">Contact Us</Nav.Link>
                 <Nav.Link href="/blogs">Blogs</Nav.Link>
-                <Nav.Link href="/careers">Careers</Nav.Link>
+                <Nav.Link href="/career">Careers</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

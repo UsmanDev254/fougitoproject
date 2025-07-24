@@ -9,7 +9,7 @@ import GreenInovationImg from "../../../Assests/Images/plant-conserve-banner.jpg
 
 function GreenInovation(){
     return(
-        <Container className="mt-5 custom_container">
+        <Container className="mt-5 p-0 p-lg-5 custom_container container">
             <div className="inovation_parent p-5 d-flex justify-content-center" style={{backgroundImage:`url(${GreenInovationImg})`}}>
                 <div className="inovation_child text-white text-center p-0 p-lg-5 m-auto">
                     <h2 className="inovation_top_heading">Your Leading</h2>

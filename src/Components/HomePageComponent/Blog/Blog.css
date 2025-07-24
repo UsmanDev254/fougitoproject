@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 32%;
 }
 
 .blog_card_child_main:before {
@@ -19,4 +20,11 @@
 
 .blog_card_content {
     z-index: 3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .blog_card_child_main {
+    width: 100% !important;
+}
 }

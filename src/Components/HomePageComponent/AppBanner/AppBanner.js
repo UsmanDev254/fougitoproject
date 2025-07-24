@@ -12,12 +12,12 @@ import AppScreens from "../../../Assests/Images/app.webp"
 
 function AppBanner(){
     return(
-        <Container className="mt-5 custom_container">
-            <div className="fougito_app_parent rounded p-3 ps-lg-5 pe-lg-5 mb-5 d-column d-lg-flex justify-content-center align-items-center" style={{background:"#F05152"}}>
+        <Container className="mt-5 pt-0 pt-lg-5 custom_container">
+            <div className="fougito_app_parent rounded p-0 pt-3 pt-lg-0 px-3 px-lg-5 mt-5 mb-5 d-column d-lg-flex justify-content-center align-items-center" style={{background:"#F05152"}}>
                 <div className="fougito_app_child text-white col-12 col-lg-6">
                     <h2 className="fougito_app_main_heading">Get Started with the <br></br> Fougito App Today</h2>
                     <p> Grow your restaurant’s business with the Fougito Mobile POS solution.</p>
-                    <div className="d-flex text-start w-75">
+                    <div className="d-flex text-start w-50">
                         <NavLink to={'#'}><img src= {PlayStore} alt="play_store" className="playstore"></img></NavLink>
                         <NavLink to={'#'}><img src= {AppStore} alt="app_store" className="appstore"></img></NavLink>
                     </div>
