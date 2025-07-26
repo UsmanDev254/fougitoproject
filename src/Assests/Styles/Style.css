@@ -19,10 +19,10 @@ img.post_featured_img {
   font-size: 20px;
 }
 
-  input,
-  textarea {
-    width: 50%;
-  }
+input,
+textarea {
+  width: 50%;
+}
 
 textarea:focus,
 input:focus {
@@ -31,29 +31,28 @@ input:focus {
   color: #181717;
 }
 
-.error_message{
-    font-size: 14px;
-    padding-left: 10px;
-    padding-top: 10px;
+.error_message {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
-
 
 /* career page styling */
 
 .hero-swiper {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
 }
 
 .hero-slide {
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 60vh;
   position: relative;
 }
 
 .overlay {
-  background-color: rgb(0 0 0 / 85%);
+  background-color: rgb(0 0 0 / 80%);
   color: white;
   position: absolute;
   inset: 0;
@@ -85,19 +84,35 @@ input:focus {
   cursor: pointer;
 }
 .image-block {
-    position: absolute;
-    top: 30%;
-    left: 26%;
-    color: #ffffff;
-    z-index: 999;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  color: #ffffff;
+  z-index: 999;
 }
 
 .mySwiper1 .swiper-wrapper {
   transition-timing-function: linear !important;
 }
 
+/* work with us section styling */
 
+.work_content_child h2 , .thrive_us_title_main h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
 
+.work_content_child p , .thrive_us_title_main p {
+    font-size: 20px;
+}
+
+/* thrive section styling start */
+
+.thrive_icon_box_parent{
+  width: 100%;
+  max-width: 75%;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -115,7 +130,35 @@ input:focus {
   textarea {
     width: 100% !important;
   }
-  .contact_box_parent{
+  .contact_box_parent {
     width: 100% !important;
   }
+
+  /* Career page styling */
+
+  .image-block {
+  top: 20%;
+  left: 0%;
+}
+
+  /* work with us section styling */
+
+  .work_with_img{
+    width: 100% !important;
+  }
+
+.work_content_child h2 , .thrive_us_title_main h2 {
+    font-size: 30px;
+}
+
+.work_content_child p , .thrive_us_title_main p {
+    font-size: 16px;
+}
+
+/* thrive section styling start */
+
+.thrive_icon_box_parent{
+  width: 100%;
+  max-width: 100%;
+}
 }

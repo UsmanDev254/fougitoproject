@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Scroll bar color style */
+
+/* Styling the entire scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of vertical scrollbar */
+  height: 10px; /* Height of horizontal scrollbar */
+  background-color: #f5f5f5; /* Background color of the scrollbar area */
+}
+/* Styling the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #f05152; /* Color of the scrollable thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Styling the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Color of the track behind the thumb */
+  border-radius: 5px;
+}
+
