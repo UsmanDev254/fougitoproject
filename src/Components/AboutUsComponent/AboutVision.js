@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import "../../Components/HomePageComponent/FougitoSolution/FougitoSolution.css";
 // import "../../FougitoSolution/FougitoSolution.css"
 import "../../Components/HomePageComponent/ReliableComponent/Reliable.css";

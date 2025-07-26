@@ -130,44 +130,115 @@ function CareerPage() {
               Your best work can happen at Fougito
             </h3>
           </div>
-          <div className="thrive_icon_box_parent d-flex flex-wrap m-auto">
-            <div className="thrive_icon_box_child col-6 col-lg-3"> 
-              <img src={image4} alt="thrive_icon" className="w-50"></img>
-              <h4>Seize the opportunity</h4>
+          
+          <div className="w-[90%] lg:w-[70%] mx-auto flex flex-row flex-wrap justify-between mt-10">
+            {/* Item 1 */}
+            <div className="w-[48%] lg:w-[24%] flex flex-col items-center">
+              <img
+                src={image4}
+                alt="Seize the opportunity"
+                loading="lazy"
+                className="w-20 lg:w-24 hover:scale-110 transition-all ease-in-out duration-500"
+              />
+              {/* Desktop text */}
+              <p className="font-bold text-center pt-2 text-gray-800 text-[18px] lg:text-xl hidden lg:block">
+                Seize the <br /> opportunity
+              </p>
+              {/* Mobile text */}
+              <p className="font-bold text-center text-gray-800 text-[18px] lg:hidden lg:text-xl">
+                Seize the opportunity
+              </p>
             </div>
-            <div className="thrive_icon_box_child col-6 col-lg-3"> 
-              <img src={image5} alt="thrive_icon" className="w-50"></img>
-              <h4>We are committed to diversity</h4>
+
+            {/* Item 2 */}
+            <div className="w-[48%] lg:w-[24%] flex flex-col items-center">
+              <img
+                src={image5}
+                alt="Committed to diversity"
+                loading="lazy"
+                className="w-20 lg:w-24 hover:scale-110 transition-all ease-in-out duration-500"
+              />
+              <p className="font-bold text-center pt-2 text-gray-800 text-[18px] hidden lg:block lg:text-xl">
+                We are committed <br /> to diversity
+              </p>
+              <p className="font-bold text-center text-gray-800 text-[18px] lg:hidden lg:text-xl">
+                We are committed to diversity
+              </p>
             </div>
-            <div className="thrive_icon_box_child col-6 col-lg-3"> 
-              <img src={image6} alt="thrive_icon" className="w-50"></img>
-              <h4>We prioritize work-life balance</h4>
+
+            {/* Item 3 */}
+            <div className="w-[48%] lg:w-[24%] flex flex-col items-center mt-6 lg:mt-0">
+              <img
+                src={image6}
+                alt="Work-life balance"
+                loading="lazy"
+                className="w-20 lg:w-24 hover:scale-110 transition-all ease-in-out duration-500"
+              />
+              <p className="font-bold text-center pt-2 text-gray-800 text-[18px] hidden lg:block lg:text-xl">
+                We prioritize <br /> work-life balance
+              </p>
+              <p className="font-bold text-center text-gray-800 text-[18px] lg:hidden lg:text-xl">
+                We prioritize work-life balance
+              </p>
             </div>
-            <div className="thrive_icon_box_child col-6 col-lg-3"> 
-              <img src={image7} alt="thrive_icon" className="w-50"></img>
-              <h4>Explore new challenges in technology</h4>
+
+            {/* Item 4 */}
+            <div className="w-[48%] lg:w-[24%] flex flex-col items-center mt-6 lg:mt-0">
+              <img
+                src={image7}
+                alt="Explore new challenges"
+                loading="lazy"
+                className="w-20 lg:w-24 hover:scale-110 transition-all ease-in-out duration-500"
+              />
+              <p className="font-bold text-center pt-2 text-gray-800 text-[18px] hidden lg:block lg:text-xl">
+                Explore new <br /> challenges in technology
+              </p>
+              <p className="font-bold text-center text-gray-800 text-[18px] lg:hidden lg:text-xl">
+                Explore new challenges in technology
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div>
-      <h2 className="text-[24px] lg:text-[44px] font-satoshiBold text-center lg:leading-[55px]">
-        Does it sound like you? <br /> Explore opportunities at Fougito
-      </h2>
-      <div>
-        <div className="w-full bg-grayDark/10 text-center text-grayDark/40 py-10 rounded-lg mt-10 lg:mt-14">
-          <h3 className="text-grayDark font-satoshiBold text-[24px] lg:text-[30px]">
+      {/* Does it sound section start */}
+
+      <div className="container p-4 p-lg-0 py-5">
+        <h2 className="text-[24px] lg:text-[44px] font-bold text-center lg:leading-[55px]">
+          Does it sound like you? <br /> Explore opportunities at Fougito
+        </h2>
+
+        <div className="w-full bg-gray-200 text-center text-gray-500 py-10 rounded-lg mt-10 lg:mt-14">
+          <h3 className="text-gray-800 font-bold text-[24px] lg:text-[30px]">
             No positions available
           </h3>
-          <p className="font-satoshiMedium text-zinc-700 lg:text-xl w-[95%] lg:w-[55%] mx-auto pt-1">
+          <p className="text-gray-700 text-base lg:text-xl w-[95%] lg:w-[55%] mx-auto pt-1">
             Currently, there are no job openings available. Please follow our
             social media channels to stay informed about future opportunities.
           </p>
         </div>
       </div>
-    </div>
 
+      {/* Fougito is an equal opportunity employer start */}
+
+      <div
+        className="container p-4 p-lg-0 py-8 mt-0 mt-lg-5 bg-learnMob lg:bg-learn bg-no-repeat bg-cover rounded-md shadow-md mx-auto"
+        style={{ backgroundImage: `url(${image9})` }}
+      >
+        <div className="text-center py-2">
+          <h4 className="text-[24px] lg:text-[43px] lg:leading-[53px] text-gray-800 font-bold">
+            Fougito is an equal opportunity employer
+          </h4>
+          <p className="text-zinc-700 lg:text-xl font-medium pt-4 pb-4 mx-auto">
+            Can’t find what you’re looking for? Send in your CV at
+            <br className="hidden lg:block" />
+            <span className="text-red-600 cursor-pointer">
+              careers@fougito.com
+            </span>{" "}
+            and we’ll reach out if anything opens up!
+          </p>
+        </div>
+      </div>
     </>
   );
 }

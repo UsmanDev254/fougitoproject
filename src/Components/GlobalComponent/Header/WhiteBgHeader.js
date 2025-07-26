@@ -13,7 +13,7 @@ import "../Header/Header.css";
 
 function HeaderWhite() {
 
-  const [isSticky, setIsSticky] = useState(false);
+  // const [isSticky, setIsSticky] = useState(false);
 
   // useEffect(() => {
   //   const handleScroll = () => {
