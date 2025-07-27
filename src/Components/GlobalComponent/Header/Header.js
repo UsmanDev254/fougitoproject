@@ -37,13 +37,13 @@ function Header() {
     <header className="App-header">
       <Navbar
         expand={expand}
-        className={`${isSticky ? 'sticky' : ''} navbar_main bg-body-tertiary navbar-dark shadow-none`}
+        className={`${isSticky ? 'sticky' : ''} navbar_main bg-body-tertiary navbar-dark shadow-none p-0`}
         style={{background: isSticky ? '#000': ''}}
         // bg="dark"
         // data-bs-theme="dark"
       >
         <Container className="d-flex">
-          <div className="logo_main">
+          <div className="logo_main d-flex justify-content-center align-item-center">
             <Navbar.Brand href="/">
               <img className="site_logo" src={Logo} alt="logo"></img>
             </Navbar.Brand>

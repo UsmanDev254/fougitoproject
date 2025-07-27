@@ -38,10 +38,10 @@ function HeaderWhite() {
     <header className="App-header">
       <Navbar
         expand={expand}
-        className={`navbar_white fixed-top bg-body-tertiary navbar-light shadow-none`}
+        className={`navbar_white fixed-top bg-body-tertiary navbar-light shadow-none p-0`}
       >
         <Container className="d-flex">
-          <div className="logo_main">
+          <div className="logo_main d-flex justify-content-center align-item-center">
             <Navbar.Brand href="/">
               <img className="site_logo" src={Logo} alt="logo"></img>
             </Navbar.Brand>
