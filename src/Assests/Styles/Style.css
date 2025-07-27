@@ -141,6 +141,10 @@ input:focus {
   left: 0%;
 }
 
+.hero-slide {
+  height: 50vh !important;
+}
+
   /* work with us section styling */
 
   .work_with_img{
