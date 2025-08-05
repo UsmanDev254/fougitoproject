@@ -40,7 +40,7 @@ function BlogCard() {
             <h2 className="why_choose_fougito pb-4">Latest Blogs</h2>
           </div>
           <div className="filtering_blog_main">
-            <div className="search_blog text-left w-25 bg-[#1817170d] rounded-5">
+            <div className="search_blog text-left md:w-[50%] lg:w-[25%] bg-[#1817170d] rounded-5">
               <input
                 type="text"
                 placeholder="Search blogs..."
