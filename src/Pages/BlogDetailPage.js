@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import blogPosts from "../Components/HomePageComponent/Blog/BlogData";
 import "../Assests/Styles/Style.css";
+import HeaderWhite from "../Components/GlobalComponent/Header/WhiteBgHeader";
 
 function BlogDetail() {
   const { slug } = useParams();
@@ -23,6 +24,7 @@ function BlogDetail() {
 
   return (
     <>
+    <HeaderWhite />
       <div className="container-fluid p-0">
         <img
           src={blog.featuredImage}

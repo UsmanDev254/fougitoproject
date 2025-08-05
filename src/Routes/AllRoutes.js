@@ -5,6 +5,7 @@ import BlogDetail from "../Pages/BlogDetailPage";
 import AboutPage from "../Pages/About";
 import Contact from "../Pages/Contact";
 import CareerPage from "../Pages/Career";
+import BlogCard from "../Pages/BlogMainPage";
 
 
 function AllRoutes() {
@@ -15,6 +16,7 @@ function AllRoutes() {
         <Route path="/blog/:slug" element={<BlogDetail />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<BlogCard />} />
         <Route path="/career" element={<CareerPage />} />
       </Routes>
     </div>

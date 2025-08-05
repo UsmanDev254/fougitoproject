@@ -1,6 +1,9 @@
-import Featured1 from "../../../Assests/Images/restaurant-management-home.webp"
-import Featured2 from "../../../Assests/Images/blog18-thumbnail.webp"
-import Featured3 from "../../../Assests/Images/Pos-system-card.webp"
+import Featured1 from "../../../Assests/Images/BlogImages/restaurant-management.webp"
+import Featured2 from "../../../Assests/Images/BlogImages/blog18-thumbnail.webp"
+import Featured3 from "../../../Assests/Images/BlogImages/Pos-system-card.webp"
+import Featured4 from "../../../Assests/Images/BlogImages/Restaurant-management-system.webp"
+import Featured5 from "../../../Assests/Images/BlogImages/blog19-thumbnail-card.webp"
+import Featured6 from "../../../Assests/Images/BlogImages/blog17-thumbnail.webp"
 
 
 const blogPosts = [
@@ -22,9 +25,33 @@ const blogPosts = [
     },
     {
       id: 3,
-      slug: "what-is-pos-system?",
+      slug: "what-is-pos-system",
       title: "What is POS system? A Complete Guide to Point of Sale for Businessest",
       featuredImage:Featured3,
+      excerpt:"The world has seen rapid growth towards digital solutions...",
+      description: "The world has seen rapid growth towards digital solutions, especially post-covid. Businesses are adapting to the digital revolution quite easily, and hence the importance of a smart POS system in the F&B industry has soared. A point of sale (POS) system is crucial for any business to run its operations smoothly, regardless of the size or nature of it. It’s the first thing that would come to the mind of any restaurant owner while planning for their restaurant.",
+    },
+    {
+      id: 4,
+      slug: "restaurant-management-system",
+      title: "How To Pick the Best Restaurant Management System?",
+      featuredImage:Featured4,
+      excerpt:"The world has seen rapid growth towards digital solutions...",
+      description: "The world has seen rapid growth towards digital solutions, especially post-covid. Businesses are adapting to the digital revolution quite easily, and hence the importance of a smart POS system in the F&B industry has soared. A point of sale (POS) system is crucial for any business to run its operations smoothly, regardless of the size or nature of it. It’s the first thing that would come to the mind of any restaurant owner while planning for their restaurant.",
+    },
+    {
+      id: 5,
+      slug: "successful-garage-business-with-fougito-auto",
+      title: "Launch A Successful Garage Business With Fougito Auto",
+      featuredImage:Featured5,
+      excerpt:"The world has seen rapid growth towards digital solutions...",
+      description: "The world has seen rapid growth towards digital solutions, especially post-covid. Businesses are adapting to the digital revolution quite easily, and hence the importance of a smart POS system in the F&B industry has soared. A point of sale (POS) system is crucial for any business to run its operations smoothly, regardless of the size or nature of it. It’s the first thing that would come to the mind of any restaurant owner while planning for their restaurant.",
+    },
+    {
+      id: 6,
+      slug: "pos-features-to-make-your-menu-management-smoother",
+      title: "Use These Simple POS Features To Make Your Menu Management Smoother",
+      featuredImage:Featured6,
       excerpt:"The world has seen rapid growth towards digital solutions...",
       description: "The world has seen rapid growth towards digital solutions, especially post-covid. Businesses are adapting to the digital revolution quite easily, and hence the importance of a smart POS system in the F&B industry has soared. A point of sale (POS) system is crucial for any business to run its operations smoothly, regardless of the size or nature of it. It’s the first thing that would come to the mind of any restaurant owner while planning for their restaurant.",
     },
